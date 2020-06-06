@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #393939;
+  background-color: #fff;
   height: 5000px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .text {
@@ -16,12 +16,9 @@ body {
 .text h1 {
   margin: 3rem 0;
   font-size: 2.4rem;
-  color: #fff;
 }
 .text p {
   display: inline-block;
-  background: #f9f57b;
-  color: #000;
   padding: 0 0.5em;
 }
 
@@ -40,7 +37,6 @@ body {
   display: block;
   width: 30vw;
   height: 30vw;
-  background-color: #f6f6f6;
   border-radius: 50%;
   transition: transform ‭0.0166666666666667‬s;
 }
@@ -48,10 +44,8 @@ body {
   background-color: #f9f57b;
 }
 .js-parallax ._shape2 {
-  /* transition-duration: 1s; */
   background-color: #f4988a;
 }
 .js-parallax ._shape3 {
   background-color: #009bce;
-  /* transition-duration: 2s; */
 }
